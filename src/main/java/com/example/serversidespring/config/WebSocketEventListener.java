@@ -1,7 +1,7 @@
 package com.example.serversidespring.config;
 
-import com.example.serversidespring.controller.ChatMessage;
-import com.example.serversidespring.controller.ChatMessage.MessageType;
+import com.example.serversidespring.model.ChatMessage;
+import com.example.serversidespring.model.ChatMessage.MessageType;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.event.EventListener;
